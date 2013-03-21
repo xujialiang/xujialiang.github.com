@@ -1,0 +1,138 @@
+---
+layout: default
+title: Editor & IDE - Software
+---
+
+<div id="charpter">
+h3. Contents
+* "Sublime Text":#sublime_text
+* "Vim":#vim
+* "Eclipse":#eclipse
+* "JetBrains's IDE":#jetbrains
+* "OS X Platform":#osx
+* "Windows Platform":#windows
+* "Code Fonts":#fonts
+</div>
+
+h1(#sublime_text). Sublime Text
+
+h3. Website
+* "Official Website":http://www.sublimetext.com
+* "Sublime Text 2":http://www.sublimetext.com/2
+* "Twitter":http://twitter.com/#!/sublimehq
+* "Forum":http://www.sublimetext.com/forum/
+* "userecho":http://sublimetext.userecho.com/
+
+h3. Themes
+* "Soda":https://github.com/buymeasoda/soda-theme/
+* "Magnificent Theme":https://github.com/kuroir/Sublime-Magnificent-Theme
+* "pseudo-osx":https://github.com/raik/st2-pseudo-osx-theme
+* "refresh":https://github.com/BoundInCode/st2-refresh-theme
+* "nil":https://github.com/nilium/st2-nil-theme
+
+h3. Color Schemes
+* "Tomorrow":https://github.com/ChrisKempson/Tomorrow-Theme
+* "Railscasts":https://github.com/ryanb/textmate-themes
+* "Solarized":http://ethanschoonover.com/solarized
+* "DobDark":https://github.com/charlesroper/DobDark-Theme
+
+h3. Packages
+* "Sublime Package Control":http://wbond.net/sublime_packages/package_control - Sublime Text包管理器
+* "Packages by Will Bond":http://wbond.net/sublime_packages/
+* "Haml-Sass":https://github.com/n00ge/sublime-text-haml-sass - haml和sass支持
+* "CSS格式化":https://gist.github.com/2863474
+* "Sublime CodeIntel":https://github.com/Kronuz/SublimeCodeIntel - 智能代码提示
+* "OmniMarkupPreviewer":https://github.com/timonwong/OmniMarkupPreviewer - Markdown 实时预览插件
+* "SideBarEnhancements":https://github.com/titoBouzout/SideBarEnhancements - 左边栏菜单增强插件
+* "SublimeWebInspector":http://sokolovstas.github.com/SublimeWebInspector/ - 前端调试插件
+
+h3. Articles
+* "Sublime Text 2 Tips and Tricks":http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/
+* "Sublime Text 2 入门及技巧":http://lucifr.com/139225/sublime-text-2-tricks-and-tips/
+* "ZenCoding in Sublime Text 2":http://lucifr.com/139231/zencoding-in-sublime-text-2/
+* "Sublime Text 2 实用快捷键[Mac OS X]":http://lucifr.com/139235/sublime-text-2-useful-shortcuts/
+* "Sublime Text 2 使用小记":http://readful.com/post/9774110738/sublime-text-2
+* "Sublime Text 2 快速上手":http://hhuai.github.com/blog/2012/01/08/sublime-text-intro/
+* "Sublime Text 2 设置文件详解":http://www.feelcss.com/sublime-text-2-settings.html
+
+h1(#vim). Vim
+
+h3. Plugins
+* "Ack":http://www.vim.org/scripts/script.php?script_id=2572 ("github":https://github.com/mileszs/ack.vim) - 快速检索插件
+* "Command-T":http://www.vim.org/scripts/script.php?script_id=3025 / "ctrlp":http://kien.github.com/ctrlp.vim/ - 快速匹配打开文件
+* "ctags":http://ctags.sourceforge.net/ - 语法元素扫描记录工具
+* "MattchTag":http://www.vim.org/scripts/script.php?script_id=3818 - html标签高量匹配
+* "NERDTree":http://www.vim.org/scripts/script.php?script_id=1658 - 文件树列表
+* "Indent Guides":http://www.vim.org/scripts/script.php?script_id=3361 - 缩进提示线
+* "Powerline":https://github.com/Lokaltog/vim-powerline - 强大实用美观的状态条
+* "Rails":http://www.vim.org/scripts/script.php?script_id=1567 - rails开发必备利器
+* "snipMate":http://www.vim.org/scripts/script.php?script_id=2540 - 类似Textmate的代码自动补全插件
+
+h3. Color Theme
+* "Color Theme Test":http://code.google.com/p/vimcolorschemetest/
+* "Solarized":http://ethanschoonover.com/solarized
+* "rootwater":http://vimcolorschemetest.googlecode.com/svn/colors/rootwater.vim
+* "ps_color":http://vimcolorschemetest.googlecode.com/svn/colors/ps_color.vim
+
+h3. Install Script
+* "janus":https://github.com/carlhuda/janus
+
+h3. Other
+* "Vim官方网站":http://www.vim.org/
+* "MacVim":https://github.com/b4winckler/macvim/downloads
+* "Vim在线视频教程":http://vimcasts.org/
+* "闲耘整理的Vim Wiki":http://wiki.hotoo.me/Vim.html
+* "Vim图表":http://michael.peopleofhonoronly.com/vim/
+* "Vim图表2":http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png
+* "Vim-Adventures":http://vim-adventures.com/ - 一款在线Vim游戏
+
+h1(#eclipse). Eclipse
+
+h3. Plugins
+* "EasyStruts":http://sourceforge.net/projects/easystruts/ - 打开选定文件所在目录
+* "Fullscreen":http://scharf.gr/eclipse/fullscreen/update/ - 全屏插件
+* "Subclipse":http://subclipse.tigris.org - SVN插件
+* "Flex Formatter":http://sourceforge.net/projects/flexformatter/ - 代码格式化插件
+* "SourceMate":http://www.elementriver.com/sourcemate - 编码增强工具
+* "Eclipse Color Theme":https://github.com/eclipse-color-theme/eclipse-color-theme - 配色插件
+
+h1(#jetbrains). JetBrains
+
+h3. Color Schemes
+* "Solarized":http://ethanschoonover.com/solarized
+
+h3. References
+* "大猫的前端开发指南":https://github.com/damao/Intellij-IDEA-F2E
+
+h1(#osx). OSX相关
+* "Tincta":http://mr-fridge.de/software/tincta/index.php - 文本编辑器
+* "MacVim":http://code.google.com/p/macvim/
+* "AppCode":http://www.jetbrains.com/objc/ - an Objective-C IDE That Makes a Defference
+* "TextMate":http://macromates.com/ - 代码编辑工具
+* "Coda":http://www.panic.com/coda/ - 支持FTP/SFTP等连接方式的代码编辑工具
+** "Tabster":http://code.google.com/p/tabsterforcoda/ - 能够使Coda支持多行缩进的插件
+* "BBEdit":http://www.barebones.com/products/bbedit/ - BBEdit is the leading professional HTML and text editor for the Macintosh. 
+* "Chocolat":http://chocolatapp.com/ - 功能类似textmate的编辑器
+* "TextWrangler":http://www.barebones.com/products/textwrangler/ - TextWrangler is the “little brother” to BBEdit
+* "Vico":http://www.vicoapp.com/ - 类似于VIM的可视化代码编辑工具
+* "xmplify":http://xmplifyapp.com/ - XML编辑器
+* "Espresso":http://macrabbit.com/espresso/ 前段web集成开发环境
+* "0xED":http://www.suavetech.com/0xed/0xed.html - 16进制编辑器
+* "SweetScape 010 Editor":http://www.sweetscape.com/ - 同上
+* "Mou":http://mouapp.com/ - markdown编辑器
+* "CssEdit":http://macrabbit.com/cssedit/ - 完美的CSS编辑器
+* "Json Editor":http://jsoneditor.blogspot.ro/
+
+h1(#windows). Windows相关
+* "Notepad++":http://notepad-plus-plus.org/ - 免费强大的代码编辑工具
+* "Intype":http://inotai.com/intype/ - Windows下的textmate替代软件
+* "SciTe":http://www.scintilla.org/
+* "EmEditor":http://www.emeditor.com/
+* "Notepad2":http://www.flos-freeware.ch/notepad2.html - 简单轻便的最适合替代系统notepad的编辑器
+** "Notepad2-Mod":http://code.google.com/p/notepad2-mod/ - 官方版本的分支，加强了代码支持
+** 通过 "映像劫持":http://www.portablesoft.org/notepad2-replacement/ 实现Notepad2替换记事本
+
+h1(#fonts). Code Fonts
+* "Meslo":https://github.com/andreberg/Meslo-Font - 在不支持调整行高的编辑器下用这款字体很合适
+* "Adobe Source Code Pro":http://sourceforge.net/projects/sourcecodepro.adobe/ - adobe 推出的代码字体
+* "Source Sans Pro":http://sourceforge.net/projects/sourcesans.adobe/ - 同上

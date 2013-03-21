@@ -1,0 +1,21 @@
+---
+layout: default
+title: Open Source Projects
+---
+
+h1. {{ page.title }}
+
+h3. Network
+* "shadowsocks":http://shadowsocks.org/
+
+h3. Other
+* "FastDFS":http://code.google.com/p/fastdfs/ - 一款高性能分布式文件系统
+* "Phabricator":http://phabricator.org/ - Facebook 推荐出的基于web的项目管理系统，包含Code Review、工作流管理、漏洞追踪等功能
+* "Gerrit":http://code.google.com/p/gerrit/ - Google的基于Web的项目Code Review系统
+
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />

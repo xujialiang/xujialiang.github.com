@@ -1,0 +1,33 @@
+---
+layout: default
+title: GoLang
+---
+
+h1. Go Lang
+
+h3. Website
+* "Official Website":http://golang.org/
+
+h3. Libraries
+* "Libraries Written in Go":http://go-lang.cat-v.org/pure-go-libs
+
+h3. Framework
+* "GoWeb":http://code.google.com/p/goweb/ - Lightweight RESTful web framework for Go
+* "revel":http://robfig.github.com/revel/ - A high-productivity web framework for the Go language, modeled on Play! Framework.
+* "Gorilla":http://www.gorillatoolkit.org/ - a web toolkit
+
+h3. Web Apps
+* "Tattoo":https://github.com/shellex/tattoo - A simple blog system
+* "gor":https://github.com/wendal/gor - Golang编写的静态博客引擎
+
+h3. Website
+
+
+h3. References
+* "Introducing Go by Example":http://mmcgrana.github.com/2012/10/introducing-go-by-example.html
+* "Go语言半小时速成":http://www.aqee.net/go/a-tour-of-go
+* "Wonderfo的资料收集":https://github.com/wonderfo/wonderfogo/wiki
+* "GoByExample":https://gobyexample.com/
+* "Go指南":http://tour.golanger.com/
+* "qyuhen的学习笔记":https://github.com/qyuhen/book
+* "A golang ebook intro how to build a web with golang":https://github.com/astaxie/build-web-application-with-golang/blob/master/preface.md
