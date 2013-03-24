@@ -1,6 +1,6 @@
 ---
 layout: post
-category : Blog Demo
+category : Demo
 tagline: "Supporting tagline"
 tags : [Demo]
 ---
