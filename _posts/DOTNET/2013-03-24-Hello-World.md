@@ -2,7 +2,7 @@
 layout: post
 category : DotNet
 tagline: "Hello world"
-tags : [Demo]
+tags : [Hello World]
 ---
 {% include JB/setup %}
 
