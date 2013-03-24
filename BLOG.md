@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 每个人都应该为他的梦想付出他的全部
+tagline: 叶子
 ---
 {% include JB/setup %}
 
