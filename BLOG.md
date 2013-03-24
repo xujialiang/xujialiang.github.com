@@ -11,7 +11,7 @@ tagline: 每个人都应该为他的梦想付出他的全部
 <script type="text/javascript">
 (function(){
 var url = "http://widget.weibo.com/distribution/comments.php?width=0&url=http%3A%2F%2Fblog.xujialiang.net&fontsize=14&skin=8&ralateuid=1269468853&iframskin=8&dpc=1";
-var str1='<iframe id=&quot;WBCommentFrame&quot; src=&quot;';
+var str1="<iframe id=""WBCommentFrame"" src=";
 document.write(str1 + url + '" scrolling="no" frameborder="0" style="width:100%"></iframe>');
 })();
 </script>
