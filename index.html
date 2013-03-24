@@ -1,11 +1,30 @@
----
-layout: default
-title: 我的Blog
----
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
-{% for post in site.posts %}
-<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+<!DOCTYPE html>
+<html>
+	<head>
+	 <meta charset="utf-8">
+   	 <title>Elliott's Blog</title>
+   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/reset.css" type="text/css" media="screen, projection">
+
+	</head>
+<body>
+<div style="width: 50%;position: absolute;height: 100%;background: #ddd;color: #000;">
+</div>
+<div style="width: 50%;position: absolute;height: 100%;background: white;color: white;left: 50%;">
+</div>
+
+<div id="container" style="top: 0;left: 0;width: 100%;height: 100%;position: fixed;display: table;">
+ 
+    <div style="text-align: center;display: table-cell;vertical-align: middle;">
+      <div id="left" style="width: 50%;font-size: 10em;font-family: Georgia, Times, sans-serif;background: #ddd;color: white;text-align: center;float: left;">
+        Blog
+             </div>
+      <div id="right" style="width: 50%;font-size: 10em;font-family: Georgia, Times, sans-serif;background: white;color: #ddd;left: 50%;text-align: center;float: right;">
+	Wiki 
+
+      </div>
+    </div>
+</div>
+
+</body>
+</html>
