@@ -12,13 +12,10 @@ title: Index
 	{% for category in site.categories %} 
 {% if category[0] contains 'Wiki' %}
  <ul>
-
 {% assign pages_list = category[1] %}  
-    {% include JB/pages_list %}
-
-
-   {% endif %}
+ {% include JB/pages_list %}
   </ul>
+% endif %}
 {% endfor %}
 </ul>
 
