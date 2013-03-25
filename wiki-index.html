@@ -11,12 +11,10 @@ title: Index
 <ul class="posts>
 	{% for category in site.categories %} 
 {{category[0]}}
-{% if category[0]=='Wiki' %}
   <ul>
     {% assign pages_list = category[1] %}  
     {% include JB/pages_list %}
   </ul>
-{% endif %}
 {% endfor %}
 </ul>
 
