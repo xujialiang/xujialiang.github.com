@@ -8,13 +8,13 @@ title: Elliott的Wiki
 这里是Elliott的个人wiki，用来记录工作学习中用到的数据资料。
 
 <h3>Articles</h3>
-	{% for category in site.categories %} 
+{% for category in site.categories %} 
 {% if category[0] contains 'Wiki' %}
 <ul>
 {% assign pages_list = category[1] %}  
- {% include JB/pages_list %}
+{% include JB/pages_list %}
 </ul>
-% endif %}
+{% endif %}
 {% endfor %}
 
 
