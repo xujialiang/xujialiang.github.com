@@ -1,6 +1,6 @@
 ---
 layout: default-wiki
-title: Index
+title: Elliott的Wiki
 ---
 {% include JB/setup %}
 <h1>Welcome</h1>
@@ -10,8 +10,10 @@ title: Index
 <h3>Articles</h3>
 	{% for category in site.categories %} 
 {% if category[0] contains 'Wiki' %}
+<ul>
 {% assign pages_list = category[1] %}  
  {% include JB/pages_list %}
+</ul>
 % endif %}
 {% endfor %}
 
