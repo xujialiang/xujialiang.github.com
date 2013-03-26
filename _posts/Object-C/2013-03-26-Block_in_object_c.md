@@ -1,6 +1,6 @@
 ---
 layout: post
-category : DotNet
+category : Object-C
 tagline: "Hello world"
 tags : [Hello World]
 ---
