@@ -6,7 +6,7 @@ title: References
 
 
 ## Other
-* "Markdown语法说明-简体中文版":http://wowubuntu.com/markdown/
+* Markdown语法说明-简体中文版:http://wowubuntu.com/markdown/
 
 <br /><br /><br /><br /><br /><br />
 <br /><br /><br /><br /><br /><br />
