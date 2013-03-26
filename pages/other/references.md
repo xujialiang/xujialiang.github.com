@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default-wiki
 title: References
 ---
 {% include JB/setup %}
