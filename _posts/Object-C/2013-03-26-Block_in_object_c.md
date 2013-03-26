@@ -1,8 +1,8 @@
 ---
 layout: post
 category : Object-C
-tagline: "Hello world"
-tags : [Hello World]
+tagline: "Object-C block"
+tags : [Object-C Block]
 ---
 {% include JB/setup %}
 
