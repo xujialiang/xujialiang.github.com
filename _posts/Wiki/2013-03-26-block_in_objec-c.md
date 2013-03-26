@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-wiki
 category : Wiki-Object-C
 tagline: "block"
 tags : [object-c block]
