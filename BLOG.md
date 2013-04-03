@@ -7,5 +7,4 @@ tagline: 每个人都应该为他的梦想付出他的全部
 
 #正在构思。。。。。。
 ##等几天吧~~~~
-<iframe height=498 width=510 src="http://player.youku.com/embed/XMzYzNjQ2MTQ0" frameborder=0 allowfullscreen></iframe>
-
+<embed src="http://player.youku.com/player.php/sid/XMzYzNjQ2MTQ0/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
