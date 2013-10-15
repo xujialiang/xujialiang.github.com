@@ -6,4 +6,4 @@ title: Windows Software
 
 ##原型设计
 
-*UIDesigner for mobile [UIDesigner](http://uid.cdc.tencent.com/)
+UIDesigner for mobile [UIDesigner](http://uid.cdc.tencent.com/)
