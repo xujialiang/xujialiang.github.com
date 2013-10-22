@@ -63,7 +63,7 @@ Down:http://www.codefans.net
 		if($("#SonlineBox > .contentBox").height() < $("#SonlineBox > .openTrigger").height()){
 			allHeights = $("#SonlineBox > .openTrigger").height()+4;
 		} else{allHeights = $("#SonlineBox > .contentBox").height()+4;}
-		$("#SonlineBox").height(allHeights);
+		$("#SonlineBox").height(allHeights+10);
 		if(opts.Position=="left"){$("#SonlineBox > .openTrigger").css({left:0});}
 		else if(opts.Position=="right"){$("#SonlineBox > .openTrigger").css({right:0});}
 	}
