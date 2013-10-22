@@ -87,9 +87,8 @@ Down:http://www.codefans.net
 		//第一个为qq
 		var subStrs= new Array(); //定义一数组
 		subStrs = subQqlist.split("|"); //字符分割
-		var subQqlist = strs[i];
-		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs[1]+"：</span><a target='_blank' href='http://wpa.qq.com/msgrd?v=3&uin="+subStrs[0]+"&site=qq&menu=yes'><img border='0' src='http://wpa.qq.com/pa?p=2:"+subStrs[0]+":41 &amp;r=0.22914223582483828' alt='点击这里'></a></div>"
-		
+		var subQqlist = strs[0];
+		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs[1]+"：</span><a target='_blank' href='http://wpa.qq.com/msgrd?v=3&uin="+subStrs[0]+"&site=qq&menu=yes'><img border='0' src='http://wpa.qq.com/pa?p=2:"+subStrs[0]+":41 &amp;r=0.22914223582483828' alt='点击这里'></a></div>";
 		return QqHtml;
 	}
 })(jQuery);    
