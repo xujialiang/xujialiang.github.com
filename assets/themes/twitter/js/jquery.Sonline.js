@@ -89,6 +89,17 @@ Down:http://www.codefans.net
 		var subQqlist = strs[0];
 		subStrs = subQqlist.split("|"); //字符分割
 		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs[1]+"：</span><a target='_blank' href='http://wpa.qq.com/msgrd?v=3&uin="+subStrs[0]+"&site=qq&menu=yes'><img border='0' src='http://wpa.qq.com/pa?p=2:"+subStrs[0]+":41 &amp;r=0.22914223582483828' alt='点击这里'></a></div>";
+		//第二个为来往二维码
+		var subStrs2= new Array(); //定义一数组
+		var subQqlist2 = strs[1];
+		subStrs2 = subQqlist2.split("|"); //字符分割
+		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs[1]+"：</span><a target='_blank' href='/assets/images/laiwang.png'><img border='0' src='/assets/images/laiwang_24.jpg' alt='点击这里'></a></div>";
+		//第三个为微信二维码
+		var subStrs2= new Array(); //定义一数组
+		var subQqlist2 = strs[2];
+		subStrs2 = subQqlist2.split("|"); //字符分割
+		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs[1]+"：</span><a target='_blank' href='/assets/images/weixin.jpg'><img border='0' src='/assets/images/weixin_24.jpg' alt='点击这里'></a></div>";
+
 		return QqHtml;
 	}
 })(jQuery);    
