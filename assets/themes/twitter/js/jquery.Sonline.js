@@ -98,7 +98,7 @@ Down:http://www.codefans.net
 		var subStrs2= new Array(); //定义一数组
 		var subQqlist2 = strs[2];
 		subStrs2 = subQqlist2.split("|"); //字符分割
-		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs[1]+"：</span><a target='_blank' href='/assets/images/weixin.jpg'><img border='0' src='/assets/images/weixin_24.jpg' alt='点击这里'></a></div>";
+		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs[1]+"：</span><a target='_blank' href='/assets/images/weixin.jpg'><img border='0' src='/assets/images/weixin_24.gif' alt='点击这里'></a></div>";
 
 		return QqHtml;
 	}
