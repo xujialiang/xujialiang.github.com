@@ -93,12 +93,12 @@ Down:http://www.codefans.net
 		var subStrs2= new Array(); //定义一数组
 		var subQqlist2 = strs[1];
 		subStrs2 = subQqlist2.split("|"); //字符分割
-		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs[1]+"：</span><a target='_blank' href='/assets/images/laiwang.png'><img border='0' src='/assets/images/laiwang_24.jpg' alt='点击这里'></a></div>";
+		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs2[1]+"：</span><a target='_blank' href='/assets/images/laiwang.png'><img border='0' src='/assets/images/laiwang_24.jpg' alt='点击这里'></a></div>";
 		//第三个为微信二维码
-		var subStrs2= new Array(); //定义一数组
-		var subQqlist2 = strs[2];
-		subStrs2 = subQqlist2.split("|"); //字符分割
-		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs[1]+"：</span><a target='_blank' href='/assets/images/weixin.jpg'><img border='0' src='/assets/images/weixin_24.gif' alt='点击这里'></a></div>";
+		var subStrs3= new Array(); //定义一数组
+		var subQqlist3 = strs[2];
+		subStrs3 = subQqlist3.split("|"); //字符分割
+		QqHtml = QqHtml+"<div class='QQList'><span>"+subStrs3[1]+"：</span><a target='_blank' href='/assets/images/weixin.jpg'><img border='0' src='/assets/images/weixin_24.gif' alt='点击这里'></a></div>";
 
 		return QqHtml;
 	}
