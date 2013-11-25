@@ -1,30 +1,116 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	 <meta charset="utf-8">
-   	 <title>Elliott's Blog</title>
-   	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/reset.css" type="text/css" media="screen, projection">
-	<meta property="wb:webmaster" content="e80c77e6f4713814" />
-	</head>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Xmart</title>
+	<meta name="author" content="Elliott" />
+	<meta name="description" content="Elliott Personal Website." />
+	<meta name="keywords"  content="elliott,xujialiang.net,xujialiang,徐佳良,爱英语的IT天才,爱英语的史上最强IT天才" />
+	<meta name="Resource-type" content="Document" />
+
+	
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/site.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+		
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>	
+	
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var pepe = $.fn.fullpage({
+				slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],
+				menu: '#menu'
+			});
+			
+		});
+	</script>
+
+</head>
 <body>
-<div style="width: 50%;position: absolute;height: 100%;background: #ddd;color: #000;">
+
+
+
+<ul id="menu">
+	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">JOB</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">LIFE</a></li>
+	<li data-menuanchor="4thPage"><a href="#4thPage">BLOG</a></li>
+	<li data-menuanchor="5thPage"><a href="#5thPage">SHARE</a></li>
+</ul>
+
+<div class="section " id="section0">
+	<h1>Elliott's Home</h1>
+	<p>Do U Know Who am I?</p>
+	<p>Let me Show U , Look Down...</p>
+	<img src="imgs/fullPage.png" alt="fullPage" />
 </div>
-<div style="width: 50%;position: absolute;height: 100%;background: white;color: white;left: 50%;">
+<div class="section" id="section1">
+    <div class="slide">
+		<div class="intro">
+			<h1>I am A Great Coder！Yes，Great Coder！</h1>
+			<p>I can use more than three program language to develope a product...</p>
+			<p>You can't believe that? Click the right triangle button.I will show u!</p>
+			<img src="imgs/slider.png" alt="slider" />
+		</div>
+		
+	</div>
+    <div class="slide">
+		<div class="intro">
+			<img src="image/github.png" alt="github project" style="width:450px;"/>
+			<h1>Some of My Object-C Project on <a href="https://github.com/xujialiang?tab=repositories">GitHub</a>.</h1>
+		</div>
+	</div>
+    <div class="slide">
+		<div class="intro">
+			<img src="image/ios.png" alt="ios" style="width:450px;"/>
+			<h1>IOS Project</h1>
+			<p>I Developed it with My Workmate</p>
+		</div>
+	</div>
+    <div class="slide">
+    	<div class="intro">
+			<img src="image/android.png" alt="android" style="height:300px;"/>
+			<h1>It's One of My Android Design</h1>
+		</div>
+		
+	</div>
+</div>
+<div class="section" id="section2">
+	<div class="intro">
+		<h1>I Like My Life , Enjoy It...</h1>
+		<p>I Like Play Badminton , Films , Eating ...</p>
+		<p>I Like Share My Experience On <a href="http://weibo.com/elliottxujialiang">WeiBo</a>...</p>
+		<p>Be My Fans!</p>
+		<img src="image/weibo.png" alt="weibo" style="width:600px"/>
+	</div>
+</div>
+<div class="section" id="section3">
+	<div class="intro">
+		<h1>BLOG</h1>
+		<p>It's My Personal Blog , I Build it On GitHub Page.
+			<br />
+			Sometimes I will writing some diaries on it.
+		</p>
+	</div>
+	<img src="image/blog.png" alt="blog" style="width:500px"/>
+</div>
+<div class="section" id="section4">
+	<div class="intro">
+		<h1>SHARE</h1>
+		<p>I Like Sharing Some Tech Blog on Evernote</p>
+		<img src="image/share.png" alt="weibo" style="width:600px"/>
+	</div>
 </div>
 
-<div id="container" style="top: 0;left: 0;width: 100%;height: 100%;position: fixed;display: table;">
- 
-    <div style="text-align: center;display: table-cell;vertical-align: middle;">
-      <div id="left" style="width: 50%;font-size: 10em;font-family: Georgia, Times, sans-serif;background: #ddd;color: white;text-align: center;float: left;cursor:pointer;" onclick="window.location.href='/BLOG';">
-        Blog
-             </div>
-      <div id="right" style="width: 50%;font-size: 10em;font-family: Georgia, Times, sans-serif;background: white;color: #ddd;left: 50%;text-align: center;float: right;cursor:pointer" onclick="window.location.href='https://www.evernote.com/pub/xujialiang/elliottsshare';">
-	Share 
-
-      </div>
-    </div>
-</div>
 
 </body>
 </html>
