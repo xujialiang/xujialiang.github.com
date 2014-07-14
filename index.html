@@ -36,17 +36,6 @@
 
 </head>
 <body>
-
-	<div style="position:absolute;border:1px solid #000;right:0;" id="ad">内容在这里</div>
-<script language="JavaScript" type="text/javascript">
-function rightBottomAd(){
- var abc = document.getElementById("ad");
- abc.style.top = document.documentElement.scrollTop+document.documentElement.clientHeight-90+"px"; 
- setTimeout(function(){rightBottomAd();},50);
-}
-rightBottomAd();
-</script>
-
 <ul id="menu">
 	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
 	<li data-menuanchor="secondPage"><a href="#secondPage">JOB</a></li>
@@ -90,6 +79,18 @@ rightBottomAd();
 		</div>
 		
 	</div>
+
+	<div style="position:absolute;border:1px solid #000;right:0;" id="ad"><img src="/image/ypyun.png"  alt="upyun" /></div>
+<script language="JavaScript" type="text/javascript">
+function rightBottomAd(){
+ var abc = document.getElementById("ad");
+ abc.style.top = document.documentElement.scrollTop+document.documentElement.clientHeight-50+"px"; 
+ setTimeout(function(){rightBottomAd();},50);
+}
+rightBottomAd();
+</script>
+
+
 </div>
 <div class="section" id="section2">
 	<div class="intro">
