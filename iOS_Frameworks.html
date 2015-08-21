@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>iOS常用库整理</title>
+
+</head>
+<body>
+<h1>iOS常用库整理</h1>
+
+<hr />
+
+<h2>一、UI库</h2>
+
+<h3>1.Masonry</h3>
+
+<p><a href="https://github.com/SnapKit/Masonry">https://github.com/SnapKit/Masonry</a></p>
+
+<p>Harness the power of AutoLayout NSLayoutConstraints with a simplified, chainable and expressive syntax. Supports iOS and OSX Auto Layout</p>
+
+<h3>2.SnapKit</h3>
+
+<p><a href="https://github.com/SnapKit/SnapKit">https://github.com/SnapKit/SnapKit</a></p>
+
+<p>A Swift Autolayout DSL for iOS &amp; OS X http://snapkit.io</p>
+
+<h3>3.GPUImage</h3>
+
+<p><a href="https://github.com/BradLarson/GPUImage">https://github.com/BradLarson/GPUImage</a></p>
+
+<p>An open source iOS framework for GPU-based image and video processing <a href="http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework">http://www.sunsetlakesoftware.com/2012/02/12/introducing-gpuimage-framework</a></p>
+
+<h3>4.SDWebImage</h3>
+
+<p><a href="https://github.com/rs/SDWebImage">https://github.com/rs/SDWebImage</a></p>
+
+<p>Asynchronous image downloader with cache support as a UIImageView category <a href="http://hackemist.com/SDWebImage/doc">http://hackemist.com/SDWebImage/doc</a></p>
+
+<h3>5.MBProgressHUD</h3>
+
+<p><a href="https://github.com/jdg/MBProgressHUD">https://github.com/jdg/MBProgressHUD</a></p>
+
+<p>MBProgressHUD + Customizations <a href="http://www.bukovinski.com/">http://www.bukovinski.com/</a></p>
+
+<h3>6.iCarousel</h3>
+
+<p><a href="https://github.com/nicklockwood/iCarousel">https://github.com/nicklockwood/iCarousel</a>
+A simple, highly customisable, data-driven 3D carousel for iOS and Mac OS http://www.charcoaldesign.co.uk/source/cocoa#icarousel</p>
+
+<h3>7.ios-charts</h3>
+
+<p><a href="https://github.com/danielgindi/ios-charts">https://github.com/danielgindi/ios-charts</a></p>
+
+<p>An iOS port of the beautiful MPAndroidChart. - Beautiful charts for iOS apps!</p>
+
+<h3>8.origami</h3>
+
+<p><a href="https://github.com/facebook/origami">https://github.com/facebook/origami</a></p>
+
+<p>A Quartz Composer framework that enables interactive design prototyping without programming. <a href="http://facebook.github.io/origami">http://facebook.github.io/origami</a></p>
+
+<h3>9.MJRefresh</h3>
+
+<p><a href="https://github.com/CoderMJLee/MJRefresh">https://github.com/CoderMJLee/MJRefresh</a></p>
+
+<p>The easiest way to use pull-to-refresh.</p>
+
+<h3>10.CXAlertView</h3>
+
+<p><a href="https://github.com/ChrisXu1221/CXAlertView">https://github.com/ChrisXu1221/CXAlertView</a></p>
+
+<p>Custom alert-view which allow you to add view as main content.</p>
+
+<h3>11.POP</h3>
+
+<p><a href="https://github.com/facebook/pop">https://github.com/facebook/pop</a></p>
+
+<p>An extensible iOS and OS X animation library, useful for physics-based interactions.</p>
+
+<hr />
+
+<h2>二、网络库</h2>
+
+<h3>1.AFNetworking</h3>
+
+<p><a href="https://github.com/AFNetworking/AFNetworking">https://github.com/AFNetworking/AFNetworking</a></p>
+
+<p>A delightful iOS and OS X networking framework http://afnetworking.com</p>
+
+<h3>2.Alamofire</h3>
+
+<p><a href="https://github.com/Alamofire/Alamofire">https://github.com/Alamofire/Alamofire</a></p>
+
+<p>Elegant HTTP Networking in Swift</p>
+
+<hr />
+
+<h2>三、ORM</h2>
+
+<h3>1.MagicalRecord</h3>
+
+<p><a href="https://github.com/magicalpanda/MagicalRecord">https://github.com/magicalpanda/MagicalRecord</a></p>
+
+<p>Super Awesome Easy Fetching for Core Data 1!!!11!!!!1!</p>
+
+<h3>2.fmdb</h3>
+
+<p><a href="https://github.com/ccgus/fmdb">https://github.com/ccgus/fmdb</a></p>
+
+<hr />
+
+<h2>其它</h2>
+
+<h3>1.objection</h3>
+
+<p><a href="https://github.com/atomicobject/objection">https://github.com/atomicobject/objection</a></p>
+
+<p>A lightweight dependency injection framework for Objective-C http://www.objection-framework.org</p>
+
+<h3>2.ReactiveCocoa</h3>
+
+<p><a href="https://github.com/ReactiveCocoa/ReactiveCocoa">https://github.com/ReactiveCocoa/ReactiveCocoa</a></p>
+
+<p>ReactiveCocoa is inspired by functional reactive programming. Rather than using mutable variables which are replaced and modified in-place, RAC offers “event streams,” represented by the Signal and SignalProducer types, that send values over time.</p>
+
+<h3>3.Mantle</h3>
+
+<p><a href="https://github.com/Mantle/Mantle">https://github.com/Mantle/Mantle</a></p>
+
+<p>Model framework for Cocoa and Cocoa Touch</p>
+
+<h3>4.JSONModel</h3>
+
+<p><a href="https://github.com/icanzilb/JSONModel">https://github.com/icanzilb/JSONModel</a></p>
+
+<p>Magical Data Modelling Framework for JSON. Create rapidly powerful, atomic and smart data model classes <a href="http://www.jsonmodel.com">http://www.jsonmodel.com</a></p>
+
+<h3>5.CocoaLumberjack</h3>
+
+<p><a href="https://github.com/CocoaLumberjack/CocoaLumberjack">https://github.com/CocoaLumberjack/CocoaLumberjack</a></p>
+
+<p>A fast &amp; simple, yet powerful &amp; flexible logging framework for Mac and iOS</p>
+
+<h3>6.iConsole</h3>
+
+<p><a href="https://github.com/nicklockwood/iConsole">https://github.com/nicklockwood/iConsole</a></p>
+
+<p>In-app console for viewing logs and typing debug commands in iPhone apps <a href="http://www.charcoaldesign.co.uk/source/cocoa#iconsole">http://www.charcoaldesign.co.uk/source/cocoa#iconsole</a></p>
+
+<h3>7.libextobjc</h3>
+
+<p><a href="https://github.com/jspahrsummers/libextobjc">https://github.com/jspahrsummers/libextobjc</a></p>
+
+<p>A Cocoa library to extend the Objective-C programming language.</p>
+
+<h3>8.CocoaSecurity</h3>
+
+<p><a href="https://github.com/kelp404/CocoaSecurity">https://github.com/kelp404/CocoaSecurity</a></p>
+
+<p>Encrypt/Decrypt: AES. Hash: MD5, SHA(SHA1, SHA224, SHA256, SHA384, SHA512). Encode/Decode: Base64, Hex.</p>
+
+<h3>9.WebViewJavascriptBridge</h3>
+
+<p><a href="https://github.com/marcuswestin/WebViewJavascriptBridge">https://github.com/marcuswestin/WebViewJavascriptBridge</a></p>
+
+<p>An iOS/OSX bridge for sending messages between Obj-C and JavaScript in UIWebViews/WebViews http://marcuswest.in</p>
+
+<hr />
+
+<h2>工具</h2>
+
+<h3>1.CocoaPods</h3>
+
+<p><a href="https://cocoapods.org">https://cocoapods.org</a></p>
+
+<p>CocoaPods is the dependency manager for Swift and Objective-C Cocoa projects. It has over ten thousand libraries and can help you scale your projects elegantly.</p>
+</body>
+</html>
